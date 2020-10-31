@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif; 
+}
+ 
+.hero {
+    background: #F9F6F1; 
+    height: 100vh; 
+}
+.container {
+    max-width: 1110px ;
+    margin: auto;
+}
+.hero__row {
+    padding-top: 216px;
+    display: flex ;
+}
+.hero__suptitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 1;
+    letter-spacing: 0.02em;
+}
+.hero__title {
+    margin: 35px 0 55px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 1;
+    letter-spacing: 0.04em;
+}
+.hero__btn {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1 ;
+    letter-spacing: 0.03em;
+    color: white;
+    background-color: #D7B399;
+    text-decoration: none;
+    padding: 18px 30px;
+}
+.hero__item {
+    position: relative;
+}
+.hero__oldPrice, 
+.hero__newPrice {
+text-align: right;
+}
+.hero__product {
+    position: absolute ;
+    top: -34px;
+}
+.hero__oldPrice {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-decoration-line: line-through;
+    text-transform: uppercase;
+    color: #000000;
+}
+.hero__newPrice {
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 1;
+    text-align: right;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #D84033;
+}
+.col-6 {
+    width: 50%;
+}
