@@ -6,7 +6,7 @@
 .hero__row {
     padding-top: 216px;
     display: flex;
-    min-height: 100vh !important;
+    min-height: 800px !important;
 }
 .hero__suptitle {
     font-style: normal;
@@ -36,7 +36,7 @@
 }
 .hero__item {
     position: relative;
-    padding-top: 100px;
+    padding-top: 30px;
 }
 .hero__oldPrice, 
 .hero__newPrice {
@@ -44,7 +44,7 @@ text-align: right;
 }
 .hero__product {
     position: absolute ;
-    top: 100px;
+    top: 30px;
 }
 .hero__oldPrice {
     font-style: normal;
@@ -101,4 +101,29 @@ text-align: right;
 }
 .hero .slick-dots .slick-active button {
     background-color: #D7B399;
+}
+.free {
+    background: #212121;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.free__delivery {
+    text-align: center;
+}
+.free__delivery h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.free__delivery p {
+    padding-top: 30px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
 }
