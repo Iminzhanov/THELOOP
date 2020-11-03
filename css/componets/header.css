@@ -19,7 +19,7 @@
 }
 .header__shop {
     align-items: center;
-    margin-left: 100px;
+    margin-left: auto;
 }
 .header__nav--left .nav__item {
     margin-right: 45px;
@@ -35,20 +35,19 @@
     color: #212121; 
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 17px;
     letter-spacing: 0.03em;
     white-space: nowrap;
 }
 .shop__busket {
-    margin-right: 30px;
+    margin-right: 28px;
 }
 .shop__count span { 
     position: relative;
     padding: 2px 12px;
     background: #D7B399;
     font-style: normal;
-    
     line-height: 15px;
     text-align: center;
     color: white ;

@@ -17,3 +17,13 @@ a,span  {
     display: inline-block;
     text-decoration: none;
 }
+.row {
+     display: flex;
+     flex-wrap: wrap;
+}
+.col-6 {
+    width: 50%;
+}
+.font-regular {
+    font-weight: 400;
+}
