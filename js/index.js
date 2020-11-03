@@ -1,1 +1,3 @@
-$('.slider__container').slick (); 
+$('.slider__container').slick ({
+    dots: true,
+}); 

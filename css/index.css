@@ -6,10 +6,39 @@
 body {
     font-family: 'Montserrat', sans-serif; 
 }
- 
+.header {
+    background: #F9F6F1; 
+}
+.header__menu {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__menu a {
+    text-decoration: none;
+}
+.nav__menu {
+    display: flex;
+    list-style: none;
+}
+.nav__menu li {
+    margin-right: 20px;
+}
+.pay {
+    display: flex;
+    list-style: none;
+}
+.pay li {
+    margin-right: 20px;
+}
+.box img {
+    margin-right: 20px;
+    cursor: pointer;
+}
 .hero {
     background: #F9F6F1; 
     height: 100vh; 
+    position: relative;
 }
 .container {
     max-width: 1110px ;
@@ -17,7 +46,8 @@ body {
 }
 .hero__row {
     padding-top: 216px;
-    display: flex ;
+    display: flex;
+    height: 100vh !important;
 }
 .hero__suptitle {
     font-style: normal;
@@ -82,5 +112,33 @@ text-align: right;
     width: 50%;
 }
 .slick-initialized .slick-slide {
+    display: flex !important;
+}
+.slick-slide {
+     border: none !important;
+     outline: none !important;
+}
+.slick-arrow {
+    display: none !important ;
+}
+.hero .slick-dots {
+    position: absolute;
+    bottom: 200px;
+    left: 50%;
     display: flex;
+    list-style: none;
+    transform: translateX(-50%);
+}
+.hero .slick-dots button {
+    cursor: pointer; 
+    font-size: 0;
+    width: 40px;
+    height: 7px;
+    background-color: #CECECE;
+    border: none;
+    outline: none;
+    margin-right: 15px;
+}
+.hero .slick-dots .slick-active button {
+    background-color: #D7B399;
 }
