@@ -24,6 +24,9 @@ a,span  {
 .col-6 {
     width: 50%;
 }
+.col-3 {
+    width: 25%;
+}
 .font-regular {
     font-weight: 400;
 }
