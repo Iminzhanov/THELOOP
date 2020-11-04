@@ -1,0 +1,90 @@
+.footer {
+    background-color: #212121;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.footer__logo p {
+    padding-top: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.footer__item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    padding-left: 100px;
+    color: white;
+}
+.main li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #CBCFD4;
+    padding-top: 10px;
+}
+.category {
+    color: white;
+}
+.useful {
+    color: white;
+}
+.social span {
+    color: #CBCFD4;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+}
+.social {
+    color: white;
+}
+.category li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #CBCFD4;
+    padding-top: 10px;
+}
+.useful li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #CBCFD4;
+    padding-top: 10px;
+}
+.social li {
+    padding-top: 10px;
+}
+.footer__h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 12px;
+}
+.social span {
+    padding-left: 10px;
+}
+.last__section {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.last__one {
+    display: flex;
+    justify-content: space-between;
+}
+.last__one p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #212121;
+}
