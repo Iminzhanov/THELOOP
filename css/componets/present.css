@@ -1,0 +1,44 @@
+.present {
+    padding-top: 100px;
+    background-color:#212121;
+    padding-bottom: 100px;
+}
+.present__item {
+    display: flex;
+    padding-top: 50px;
+}
+.discount__item {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding-right: 60px;
+}
+.email__item {
+   margin-right: 35px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: start;
+    letter-spacing: 0.02em;
+    padding-left: 10px;
+    color: #8D8D8D;
+    width: 255px;
+    height: 40px;
+}
+.follow__item {
+    cursor: pointer;
+    width: 185px;
+    height: 40px;
+    background-color: #D7B399;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
